@@ -4,8 +4,8 @@ import subprocess
 
 
 s = socket.socket()
-host = '192.168.43.245'
-port = 9999
+host = '192.168.43.245'                 # ip address of the server machine
+port = 9999                             # should be same as in server.py
 s.connect((host, port))
 
 
